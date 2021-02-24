@@ -1,6 +1,6 @@
 var if_char = 'Þ';
-var else_char;
-var elseif_char;
+var else_char = '₤';
+var elseif_char = '₤Þ';
 var while_char;
 var var_char;
 var function_char;
