@@ -8,8 +8,8 @@ const const_char="bnklewndbchnfkedcbh";
 const let_char="bnklewndbchnfkedcbh";
 const return_char="bnklewndbchnfkedcbh";
 const class_char="bnklewndbchnfkedcbh";
-const input="bnklewndbchnfkedcbh";
-const output="bnklewndbchnfkedcbh";
+var input;
+var output;
 function replace(){
 	output = input.replace(if_char, "if")
   output = output.replace(else_char, "else")
