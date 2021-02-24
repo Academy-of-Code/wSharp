@@ -1,15 +1,15 @@
-var if_char = 'Þ';
-var else_char = '₤';
-var elseif_char = '₤Þ';
-var while_char;
-var var_char;
-var function_char;
-var const_char;
-var let_char;
-var return_char;
-var class_char;
-var input;
-var output;
+const if_char = 'Þ';
+const else_char = '₤';
+const elseif_char = '₤Þ';
+const while_char ="bnklewndbchnfkedcbh"
+const var_char="bnklewndbchnfkedcbh";
+const function_char="bnklewndbchnfkedcbh";
+const const_char="bnklewndbchnfkedcbh";
+const let_char="bnklewndbchnfkedcbh";
+const return_char="bnklewndbchnfkedcbh";
+const class_char="bnklewndbchnfkedcbh";
+const input="bnklewndbchnfkedcbh";
+const output="bnklewndbchnfkedcbh";
 function replace(){
 	output = input.replace(if_char, "if")
   output = output.replace(else_char, "else")
